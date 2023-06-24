@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: whitesmoke;
+    background-color: #2450ff;
+    background-repeat: no-repeat;
+    
+}
+
+div#caixa{
+
+    background-image:linear-gradient(120deg,#3a16db, #728cea,#67b3f5, #4a11f7ef);
+
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px #000000b0;
+
+    height: 600px;
+    width: 370px;
+}
+
+h1{
+    color: #53c3ff;
+    text-shadow: 3px 1px 7px #000000ab;
+
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+input{
+    display:block;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    padding: 4px;
+
+}
+section{
+    text-align: center;
+    margin: auto;
+
+}
+
+.linha{
+    display: inline;
+    margin:0px 3px;
+}
+
+
+div#res{
+    text-align: center;
+    line-height: 50px;
+    margin: auto;
+    margin-top: 40px;
+    width: 300px;
+    height: 100px;
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px #00000069;
+
+    background-color: #f7f2f5;
+    color: black;
+}
+
+input#soma{
+    margin-top: 23px;
+}
+#soma:hover{
+    background-color: #0b0b0b;
+    color: whitesmoke;
+}
+
+#subt:hover{
+    background-color: #0b0b0b;
+    color: whitesmoke;
+}
+
+#mult:hover{
+    background-color: #0b0b0b;
+    color: whitesmoke;
+}
+
+#divi:hover{
+    background-color: #0b0b0b;
+    color: whitesmoke;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #fa83cd;
+
+}
+
+footer > p{
+    margin-top: 170px;
+
+}
