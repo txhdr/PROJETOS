@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>praticando javascript</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap');
+
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        html, body{
+            height: 100vh;
+            width: 100vw;
+
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: whitesmoke;
+            background-color: #2450ff;
+            background-repeat: no-repeat;
+            
+        }
+
+        div#caixa{
+
+            background-image:linear-gradient(120deg,#3a16db, #728cea,#67b3f5, #4a11f7ef);
+
+            border-radius: 30px;
+            box-shadow: 0px 0px 20px #000000b0;
+
+            height: 600px;
+            width: 370px;
+        }
+
+        h1{
+            color: #53c3ff;
+            text-shadow: 3px 1px 7px #000000ab;
+
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 3em;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 30px;
+        }
+
+
+        input{
+            display:block;
+            margin: auto;
+            margin-bottom: 10px;
+            border-radius: 7px;
+            padding: 4px;
+
+        }
+
+        div#res{
+            text-align: center;
+            line-height: 50px;
+            margin: auto;
+            margin-top: 40px;
+            width: 250px;
+            height: 50px;
+
+            border-radius: 10px;
+            box-shadow: 0px 0px 6px #00000069;
+
+            background-color: #f7f2f5;
+            color: black;
+        }
+
+        input#soma{
+            margin-top: 23px;
+        }
+
+        p{
+            text-align: center;
+            margin-top: 240px;
+        }
+
+        a{
+            text-decoration: none;
+            color: #fa83cd;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="caixa">
+        <h1>Calcula'<a href="https://www.instagram.com/doralino17/" target="_blank">Dora</a>,</h1>
+        <input type="number" name="valor1" id="valor1" placeholder="    adicione um número" >
+        <input type="number" name="valor2" id="valor2" placeholder="         outro número">
+        <input type="submit" value="Somar" onclick="somar()" id="soma">
+
+        <div id="res"> O resultado irá aparecer aqui</div>
+
+        <p>made by txhdr</p>
+    </div>
+
+    
+    <script>
+
+        function somar(){
+            var t1 = window.document.getElementById('valor1')
+            var t2 = window.document.getElementById('valor2')
+            var res = window.document.getElementById('res')
+            
+            var n1 = Number(t1.value)
+            var n2 = Number(t2.value)
+            var s = n1 + n2
+
+            res.innerText = `A soma de ${n1} e ${n2} é igual a ${s}.`
+    }
+    </script>
+
+    
+</body>
+</html>
