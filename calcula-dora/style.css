@@ -107,13 +107,22 @@ p{
     text-align: center;
 }
 
-a{
+h1 > a{
     text-decoration: none;
     color: #fa83cd;
-
+    text-shadow: #1b1a1aea 3px 2px 1px;
+}
+strong#b{
+    text-shadow: none;
+    color: rgb(18, 18, 18)    ;
 }
 
 footer > p{
     margin-top: 170px;
 
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
 }
