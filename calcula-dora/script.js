@@ -10,6 +10,14 @@ function somar(){
 
     res.innerHTML = ` ${n1} + ${n2} =
     <strong>${s}</strong>`
+
+    document.body.style.backgroundColor = 'black'
+    //res.innerHTML += ` <img src="imgs/bruxo.ico">`
+    var img = document.createElement('img')
+    img.src = 'imgs/bruxo.ico'; 
+    document.getElementById('res').appendChild(img);
+
+
 }
 
 function subtrair(){
@@ -23,6 +31,12 @@ function subtrair(){
 
     res.innerHTML = ` ${n1} / ${n2} =
     <strong>${s}</strong>`
+
+    document.body.style.backgroundColor = `#523478`
+
+    var img = document.createElement('img')
+    img.src = 'imgs/bruxo.ico'
+    document.getElementById('res').appendChild(img)
     
 }
 
@@ -37,6 +51,10 @@ function multiplicar (){
 
     res.innerHTML = ` ${n1} x ${n2} =
     <strong>${s}</strong>`
+    var img = document.createElement('img')
+    img.src = 'imgs/bruxo.ico'
+    document.body.style.backgroundColor = '#373478'
+    document.getElementById('res').appendChild(img)
 }
 
 function dividir(){
@@ -50,4 +68,10 @@ function dividir(){
 
     res.innerHTML = ` ${n1} * ${n2} =
     <strong>${s}</strong>`
+    document.body.style.backgroundColor = '#105785'
+
+    var img = new Image();
+    img.src = 'imgs/bruxo.ico'
+    document.querySelector('div#res').appendChild(img);
+
 }
