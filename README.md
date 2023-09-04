@@ -2,6 +2,15 @@
 
 <table>
 
+<tr>
+    <td>
+      <p>🧮 Calcula' Dora</p>
+    </td>
+    <td>
+      <p>https://txhdr.github.io/PROJETOS/calcula-dora/dora.html</p>
+    </td>
+  </tr>
+
   
   <tr>
     <td>
@@ -31,12 +40,5 @@
     </td>
   </tr>
 
-  <tr>
-    <td>
-      <p>🧮 Calcula' Dora</p>
-    </td>
-    <td>
-      <p>https://txhdr.github.io/PROJETOS/calcula-dora/dora.html</p>
-    </td>
-  </tr>
+  
 </table>
