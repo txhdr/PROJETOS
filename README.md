@@ -1,7 +1,6 @@
-# PROJETOS
- caixa com os projetos que faço
+<h1> BOX OF PROJECTS </h1>
 
-1. Calcula - dora - ( https://txhdr.github.io/PROJETOS/calcula-dora/dora.html )
-2. gerador de senhas - ( https://txhdr.github.io/PROJETOS/gerador-de-senha/index.html )
-3. Jogo simples do mario - (https://txhdr.github.io/PROJETOS/Jogo-simples-mario)
-4. Pokedex - (https://txhdr.github.io/PROJETOS/Pokedex/)
++ 🧮  Calcula' Dora - ( https://txhdr.github.io/PROJETOS/calcula-dora/dora.html )
++ 🔐  Gerador De Senhas - ( https://txhdr.github.io/PROJETOS/gerador-de-senha/index.html )
++ 🎮  Jogo simples do mario - (https://txhdr.github.io/PROJETOS/Jogo-simples-mario)
++ 🕹️  Pokedex - (https://txhdr.github.io/PROJETOS/Pokedex/)
