@@ -4,7 +4,7 @@
 
 <tr>
     <td>
-      <p>🧮 Calcula' Dora</p>
+      <p>  01 - 🧮 Calcula' Dora</p>
     </td>
     <td>
       <p>https://txhdr.github.io/PROJETOS/calcula-dora/dora.html</p>
@@ -14,7 +14,7 @@
   
   <tr>
     <td>
-      <p>🔐  Gerador De Senhas</p>
+      <p> 02 - 🔐  Gerador De Senhas</p>
     </td>
     <td>
       <p>https://txhdr.github.io/PROJETOS/gerador-de-senha/index.html</p>
@@ -24,7 +24,7 @@
 
   <tr>
     <td>
-      <p>🎮  Jogo simples do mario</p>
+      <p> 03 - 🎮  Jogo simples do mario</p>
     </td>
     <td>
       <p>https://txhdr.github.io/PROJETOS/Jogo-simples-mario</p>
@@ -33,7 +33,7 @@
   
   <tr>
     <td>
-      <p>🕹️  Pokedex</p>
+      <p> 04 - 🕹️  Pokedex</p>
     </td>
     <td>
       <p>https://txhdr.github.io/PROJETOS/Pokedex/</p>
