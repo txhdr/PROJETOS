@@ -30,7 +30,7 @@ div#caixa{
     box-shadow: 0px 0px 20px #000000b0;
 
     height: 600px;
-    width: 370px;
+    width: 75%;
 }
 
 h1{
@@ -126,3 +126,4 @@ footer a{
     text-decoration: none;
     color: white;
 }
+
