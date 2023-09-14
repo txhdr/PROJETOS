@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.input-task{
+    border:none;
+    border-radius:5px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 1%;
+    padding-left: 10px;
+
+}
+
+.button-add-task{
+    border: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    height: 40px;
+    background-color: #003329;
+    color: white;
+    font-size: 17px;
+    float: right;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button-add-task:hover{
+    opacity: 0.8;
+}
+
+.button-add-task:active {
+    opacity: 0.6;
+}
+
+.list-tasks{
+    width: 100%;
+    list-style: none; 
+    margin-top: 25px;
+}
+.task{
+    background-color: #f2f2f2;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+
+img{
+    width: 1.5rem;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.task:hover img{
+    opacity: 1;
+}
+
+
+body{
+    background-image: url("img/background.png")  ;
+
+}
+
+.box{
+    background-color: #d1d1d1;
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px;
+    margin:13% auto 0;
+}
