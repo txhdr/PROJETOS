@@ -7,7 +7,7 @@
       <p>  01 - 🧮 Calcula' Dora</p>
     </td>
     <td>
-      <p>https://txhdr.github.io/PROJETOS/A01-calcula-dora/dora.html</p>
+      <p>https://txhdr.github.io/PROJETOS/A01-calcula-dora</p>
     </td>
   </tr>
 
@@ -17,7 +17,7 @@
       <p> 02 - 🔐  Gerador De Senhas</p>
     </td>
     <td>
-      <p>https://txhdr.github.io/PROJETOS/A02-gerador-de-senha/index.html</p>
+      <p>https://txhdr.github.io/PROJETOS/A02-gerador-de-senha</p>
     </td>
   </tr>
 
