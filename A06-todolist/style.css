@@ -69,8 +69,7 @@ img{
 
 
 body{
-    background-image: url("img/background.png")  ;
-
+    background-image: url("img/background.png");
 }
 
 .box{
@@ -79,4 +78,9 @@ body{
     border-radius: 10px;
     padding: 20px;
     margin:13% auto 0;
+}
+
+.done{
+    background-color: #8fac55;
+    text-decoration: line-through;
 }

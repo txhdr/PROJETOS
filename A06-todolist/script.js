@@ -23,19 +23,21 @@ function mostrarTarefas(){
 
     //['comprar cafe', 'estudar']
 
-    minhaListaDeItens.forEach((tarefa, posicao) => {
+    minhaListaDeItens.forEach((item, posicao) => {
 
         novaLi = novaLi +`
 
-        <li class="task">
-            <img src="img/checked.png" alt="check-na-tarefa">
-            <p>${tarefa}</p>
+        <li class="task ${item.concluida && "done"}" >
+            <img src="img/checked.png" alt="check-na-tarefa" onclick="concluirTarefa(${posicao})">
+            <p>${item.tarefa}</p>
             <img src="img/trash.png" alt="lixeira" onclick="deletarItem(${posicao})">
         </li>
         `
     })
 
     listaCompleta.innerHTML = novaLi
+
+    localStorage.setItem('lista',JSON.stringify(minhaListaDeItens))
 
 }
 
@@ -45,8 +47,32 @@ function deletarItem(posicao) {
     mostrarTarefas()
 }
 
-function concluirTarefa(){
+function concluirTarefa(posicao){
+    minhaListaDeItens[posicao].concluida = !minhaListaDeItens[posicao].concluida;
+
+    mostrarTarefas()
+}
+
+function recarregarTarefas(){
+    const tarefasDoLocalStorage = localStorage.getItem('lista')
+
+    if(tarefasDoLocalStorage){
+
+        minhaListaDeItens = JSON.parse(tarefasDoLocalStorage)
+
+    }
+    mostrarTarefas()
 
 }
 
+recarregarTarefas()
 button.addEventListener('click',adicionarNovaTarefa)
+
+
+
+
+
+// testando teoria
+
+//ID's
+
