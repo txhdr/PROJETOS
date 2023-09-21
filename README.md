@@ -45,7 +45,7 @@
       <p> 05 - 📝  To do list </p>
     </td>
     <td>
-      <p>https://txhdr.github.io/PROJETOS/A06-todolistx/</p>
+      <p>https://txhdr.github.io/PROJETOS/A06-todolist/</p>
     </td>
   </tr>
   
