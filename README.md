@@ -17,7 +17,7 @@
       <p> 02 - 🔐  Gerador De Senhas</p>
     </td>
     <td>
-      <p>https://txhdr.github.io/PROJETOS/A02-gerador-de-senha</p>
+      <p>https://txhdr.github.io/PROJETOS/A02-geradorDeSenha</p>
     </td>
   </tr>
 
@@ -27,7 +27,7 @@
       <p> 03 - 🎮  Jogo simples do mario</p>
     </td>
     <td>
-      <p>https://txhdr.github.io/PROJETOS/A3-Jogo-simples-mario</p>
+      <p>https://txhdr.github.io/PROJETOS/A03-Mario-JogoSimples</p>
     </td>
   </tr>
   
@@ -36,9 +36,17 @@
       <p> 04 - 🕹️  Pokedex</p>
     </td>
     <td>
-      <p>https://txhdr.github.io/PROJETOS/A04-Pokedex/</p>
+      <p>https://txhdr.github.io/PROJETOS/A04-pokedex/</p>
     </td>
   </tr>
 
+  <tr>
+    <td>
+      <p> 05 - 📝  To do list </p>
+    </td>
+    <td>
+      <p>https://txhdr.github.io/PROJETOS/A06-todolist/</p>
+    </td>
+  </tr>
   
 </table>
